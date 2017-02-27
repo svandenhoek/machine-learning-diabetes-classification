@@ -388,7 +388,7 @@ sum(is.na(data$smoking_status)) - sum(is.na(data$currsmoker))
 sum(is.na(data$smoking_status)) - sum(is.na(data$eversmoker))
 sum(is.na(data$smoking_status)) - sum(is.na(data$exsmoker))
 
-# Check if z-scoes if different number of NAs
+# Check if z-scores if different number of NAs
 sum(is.na(data$WEIGHT)) - sum(is.na(data$ZWEIGHT))
 sum(is.na(data$HEIGHT)) - sum(is.na(data$ZHEIGHT))
 
